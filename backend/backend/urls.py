@@ -19,7 +19,7 @@ from rest_framework import routers
 from event import views
 
 router = routers.DefaultRouter()
-router.register('events', views.TodoView)
+router.register('events', views.View)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
