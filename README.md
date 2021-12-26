@@ -3,8 +3,11 @@ Setup
 The first thing to do is to clone the repository:
 
 $ git clone https://github.com/shafiqulislamshawon/codebase.git
+
 $ cd backend
+
 Create a virtual environment to install dependencies in and activate it:
+
 
 $ virtualenv venv
 $ source env/bin/activate
